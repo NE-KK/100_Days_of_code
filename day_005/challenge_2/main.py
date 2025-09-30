@@ -1,0 +1,9 @@
+# 100 Days of code by Angela Yu
+# Day 5 - Challenge Gauss Challenge 
+
+gauss_sum = 0
+
+for i in range(1, 101):
+    gauss_sum += i
+
+print(f"Gauss sum: {gauss_sum}")
