@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 5 - Challenge Gauss Challenge 
+# Day 5 - Challenge 2 - Gauss Challenge 
 
 gauss_sum = 0
 
