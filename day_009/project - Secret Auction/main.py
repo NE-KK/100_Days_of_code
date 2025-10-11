@@ -12,6 +12,7 @@ max_bidder = ""
 while place_bet:
     name = input("Type your name?: ")
     price = int(input("What is your bet?: "))
+    
     os.system('cls')
 
     auction_dict[name] = price
