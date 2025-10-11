@@ -11,19 +11,25 @@ message = ""
 
 if direction == "e":
     for letter in text:
-        encrypt_index = alphabet.index(letter) + shift
+        if letter == " ":
+            message = message + " "
+        else:
+            encrypt_index = alphabet.index(letter) + shift
 
-        if encrypt_index > 26:
-            encrypt_index = encrypt_index - 26
+            if encrypt_index > 26:
+                encrypt_index = encrypt_index - 26
 
-        message = message + alphabet[encrypt_index]
+            message = message + alphabet[encrypt_index]
 
 
 if direction == "d":
     for letter in text:
-        encrypt_index = alphabet.index(letter) - shift
+        if letter == " ":
+            message = message + " "
+        else:
+            encrypt_index = alphabet.index(letter) - shift
 
-        message = message + alphabet[encrypt_index]
+            message = message + alphabet[encrypt_index]
 
 
 print(message)
