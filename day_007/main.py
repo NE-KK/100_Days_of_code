@@ -13,16 +13,18 @@ print(f"Psst, it's {chosen_word}")
 for letter in chosen_word:
     blank_list.append("_")
 
-print(blank_list)
 
-guessed_letter = input("Guess a letter: ").lower()
-print(guessed_letter)
-
-if guessed_letter in chosen_word:
-    for i in range(0, len(chosen_word_list)):
-        if chosen_word_list[i] == guessed_letter:
-            blank_list[i] = guessed_letter
+while "_" in blank_list:
     print(blank_list)
-else:
-    print("Wrong")
+
+    guessed_letter = input("Guess a letter: ").lower()
+    print(guessed_letter)
+
+    if guessed_letter in chosen_word:
+        for i in range(0, len(chosen_word_list)):
+            if chosen_word_list[i] == guessed_letter:
+                blank_list[i] = guessed_letter
+        print(blank_list)
+    else:
+        print("Wrong")
 
