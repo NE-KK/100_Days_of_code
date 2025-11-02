@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 9 - Number geussing
+# Day 12 - Number guessing
 
 from random import randint
 
