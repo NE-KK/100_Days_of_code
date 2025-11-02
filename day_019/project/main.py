@@ -11,7 +11,7 @@ screen = Screen()
 screen.title("Turtle race")
 screen.setup(height=400, width=500)
 
-user_bet = screen.textinput(title="Place a bet", prompt="Choose the that will win!")
+user_bet = screen.textinput(title="Who will win the race!", prompt="Choose the that will win!")
 
 for i in range(len(colors)):
     new_turtle = Turtle(shape="turtle")
