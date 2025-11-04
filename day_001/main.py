@@ -3,6 +3,8 @@
 
 import tkinter as tk
 
+FONT_TITLE = tk.font=("Arial", 20, "bold")
+
 def create_name():
     city = city_entry.get()
     pet = pet_entry.get()
@@ -14,7 +16,7 @@ def create_name():
 root = tk.Tk()
 root.title("Band name generator")
 
-label_title = tk.Label(root, text="Create your band name!")
+label_title = tk.Label(root, text="Create your band name!", font=FONT_TITLE)
 label_title.pack()
 
 city_label = tk.Label(root, text="Name of city where you grow up:")
