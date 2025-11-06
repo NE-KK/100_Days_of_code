@@ -6,17 +6,18 @@ from tkinter import ttk
 
 root = Tk()
 root.title("Tip calculator")
+root.geometry("300x200")
 
 frm_bill = ttk.Frame(root, padding=10)
 frm_bill.grid(column=0, row=0)
 
-ttk.Label(frm_bill, text="What was the bill? $").grid(column=0, row=0)
-ttk.Entry(frm_bill, ).grid(column=1, row=0)
+ttk.Label(frm_bill, anchor="w", justify="left", text="What was the bill? $").grid(column=0, row=0)
+ttk.Entry(frm_bill,).grid(column=1, row=0)
 
 frm_percent = ttk.Frame(root, padding=10)
 frm_percent.grid(column=0, row=1)
 
-ttk.Label(frm_percent, text="Tips you like to give? %").grid(column=0, row=0)
+ttk.Label(frm_percent, text="Tips you like to give? %", justify="left").grid(column=0, row=0)
 ttk.Entry(frm_percent, ).grid(column=1, row=0)
 
 
