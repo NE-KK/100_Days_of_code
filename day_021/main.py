@@ -1,3 +1,6 @@
+# 100 Days of code by Angela Yu
+# Day 21 - Snake Game final
+
 from turtle import Screen
 from snake import Snake
 from food import Food
