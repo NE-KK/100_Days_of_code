@@ -59,7 +59,6 @@ while game_still_going:
     choose_field(player)
     game_is_won = check_for_win(player)
     fields_empty = check_for_fields(field)
-    # player = change_player(player)
 
     if game_is_won:
         game_still_going = False
