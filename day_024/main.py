@@ -1,3 +1,7 @@
+# 100 Days of code by Angela Yu
+# Day 24 -  Project - Snake Game   
+
+
 from turtle import Screen
 from snake import Snake
 from food import Food

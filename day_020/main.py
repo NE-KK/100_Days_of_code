@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 20 - Snake Game
+# Day 20 - Project - Snake Game
 
 from turtle import Turtle, Screen
 import time

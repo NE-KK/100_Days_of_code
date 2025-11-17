@@ -1,3 +1,7 @@
+# 100 Days of code by Angela Yu
+# Day 25 - Challenge 1 - Weather Data Analysis
+
+
 import pandas
 data = pandas.read_csv("weather_data.csv")
 

@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 21 - Snake Game final
+# Day 21 -  Project - Snake Game final
 
 from turtle import Screen
 from snake import Snake

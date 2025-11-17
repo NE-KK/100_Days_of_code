@@ -1,3 +1,7 @@
+# 100 Days of code by Angela Yu
+# Day 23 - Project - Turtle Crossing
+
+
 import time
 from turtle import Screen
 from player import Player

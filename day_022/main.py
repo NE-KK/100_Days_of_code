@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 22 - Pong Game
+# Day 22 -  Project - Pong Game
 
 from turtle import Screen, Turtle
 from paddle import Paddle

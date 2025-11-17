@@ -1,3 +1,7 @@
+# 100 Days of code by Angela Yu
+# Day 25 - Challenge 2 - Squirrel Data Analysis
+
+
 import pandas
 data = pandas.read_csv("squirrel_data.csv")
 """
