@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 5 - Password generator
+# Day 5 - Project - Password generator
 
 from random import choice, shuffle
 password = []

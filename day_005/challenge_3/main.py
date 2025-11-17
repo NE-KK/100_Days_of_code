@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 5 - Challenge FizzBuzz
+# Day 5 - Challenge 3 - FizzBuzz
 
 # Rules:
 #   if number % 3 == 0 print Fizz
