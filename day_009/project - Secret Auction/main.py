@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 9 - Secret Auction
+# Day 9 - Project - Secret Auction
 
 import os
 
