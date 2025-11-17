@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 10 - Calculator
+# Day 10 - Project - Calculator
 
 def add(a, b):
     return a + b
