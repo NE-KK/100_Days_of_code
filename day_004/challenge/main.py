@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 4 - Challenge Banker Roulette
+# Day 4 - Challenge - Banker Roulette
 
 from random import choice
 

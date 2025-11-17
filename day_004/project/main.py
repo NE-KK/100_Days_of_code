@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 4 - Rock, Paper, Scissors
+# Day 4 - Project - Rock, Paper, Scissors
 
 import art
 from random import random
