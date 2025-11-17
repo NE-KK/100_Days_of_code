@@ -1,3 +1,7 @@
+# 100 Days of code by Angela Yu
+# Day 19 - Project - Turtle race
+
+
 from turtle import Turtle, Screen
 from random import randint
 

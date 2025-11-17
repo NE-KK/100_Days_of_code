@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 15 - Coffee machine
+# Day 15 - Project - Coffee machine
 
 
 MENU = {

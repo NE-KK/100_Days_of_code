@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 12 - Number guessing
+# Day 12 - Project - Number guessing
 
 from random import randint
 

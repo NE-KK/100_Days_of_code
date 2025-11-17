@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 14 - Higher Lower Game
+# Day 14 - Project - Higher Lower Game
 
 from art import logo, vs
 from game_data import data

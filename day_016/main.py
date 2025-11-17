@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 16 - Coffee machine OOP version
+# Day 16 - Project - Coffee machine OOP version
 
 from menu import Menu
 from coffee_maker import CoffeeMaker
