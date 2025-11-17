@@ -1,5 +1,5 @@
 # 100 Days of code by Angela Yu
-# Day 11 - Blackjack
+# Day 11 - Project - Blackjack
 
 # Rules:
 # infinite card deck
