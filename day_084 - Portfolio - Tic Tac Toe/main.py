@@ -10,7 +10,7 @@ def print_field(field):
     print(f"{field[6]} | {field[7]} | {field[8]}")
 
 
-def choose_field(player):
+def choose_field(player, field):
     position = int(input("Choose a position from 1-9: ")) - 1
     
     if field[position] == "-":
@@ -18,7 +18,7 @@ def choose_field(player):
         print_field(field)
 
 
-def check_for_win(player):
+def check_for_win(player, field):
     if (field[0] == player and field[1] == player and field[2] == player) or \
        (field[3] == player and field[4] == player and field[5] == player) or \
        (field[6] == player and field[7] == player and field[8] == player) or \
@@ -37,6 +37,7 @@ def check_for_fields(field):
         return True
     else:
         return False    
+
 
 def change_player(player):
     if player == "X":
@@ -61,8 +62,8 @@ def main():
     # game loop ---------------------------------
     while game_still_going:
 
-        choose_field(player)
-        game_is_won = check_for_win(player)
+        choose_field(player, field)
+        game_is_won = check_for_win(player, field)
         fields_empty = check_for_fields(field)
 
         if game_is_won:
