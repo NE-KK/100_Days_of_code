@@ -1,13 +1,6 @@
 # 100 Days of code by Angela Yu
 # Day 84 - Professional Portfolio Project - Tic Tac Toe Game
 
-game_still_going = True
-game_is_won = False
-player = "X"
-
-field = ["-", "-", "-",
-         "-", "-", "-",
-         "-", "-", "-"]
 
 
 # functions -----------------------------------------------
@@ -52,20 +45,36 @@ def change_player(player):
         return "X"
 
 
-# game loop ------------------------------------------------
-print_field(field)
-while game_still_going:
+# function main -------------------------------------------
+def main():
+    # game variables ----------------------------
+    game_still_going = True
+    game_is_won = False
+    player = "X"
 
-    choose_field(player)
-    game_is_won = check_for_win(player)
-    fields_empty = check_for_fields(field)
+    field = ["-", "-", "-",
+             "-", "-", "-",
+             "-", "-", "-"]
 
-    if game_is_won:
-        game_still_going = False
-        print(f"Player {player} won!")
-    elif not fields_empty:
-        game_still_going = False
-        print("It's a tie!")
-    else:
-        player = change_player(player)
-        continue
+    print_field(field)
+
+    # game loop ---------------------------------
+    while game_still_going:
+
+        choose_field(player)
+        game_is_won = check_for_win(player)
+        fields_empty = check_for_fields(field)
+
+        if game_is_won:
+            game_still_going = False
+            print(f"Player {player} won!")
+        elif not fields_empty:
+            game_still_going = False
+            print("It's a tie!")
+        else:
+            player = change_player(player)
+            continue
+
+
+if __name__ == "__main__":
+    main()
