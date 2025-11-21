@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+.container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+
+img {
+    border: 10px solid white;
+    height: 400px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-size: 24px;
+}
