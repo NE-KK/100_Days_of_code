@@ -26,7 +26,7 @@ def ace_check_replace(card_deck: list):
     
     return card_deck
 
-def ask_for_game() -> str:
+def ask_for_game() -> bool:
     answer = input("Do you want to play Blackjack (y or n): ")
     if answer == "y":
         return True
@@ -48,7 +48,7 @@ def player_round(pd) -> list:
         else:
             round = False
         
-        return pd
+    return pd
 
 def computer_round(cd) -> list:
     round = True
