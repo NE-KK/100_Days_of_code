@@ -13,9 +13,9 @@ print(f"Psst, it's {chosen_word}")
 for letter in chosen_word:
     blank_list.append("_")
 
+print(blank_list)
 
 while "_" in blank_list:
-    print(blank_list)
 
     guessed_letter = input("Guess a letter: ").lower()
     print(guessed_letter)
