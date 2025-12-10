@@ -65,6 +65,14 @@ def computer_round(cd) -> list:
 
     return cd
 
+def check_for_blackjack(card_deck: list) -> bool:
+    if sum(card_deck) == 21:
+        print("You won! Blackjack!")
+        return False
+    else:
+        return True
+
+
 
 # main ----------------------------------------------------------------------------------
 def main():
@@ -80,17 +88,10 @@ def main():
         player_deck.append(draw_card())
         computer_deck.append(draw_card())
 
-        if sum(player_deck) == 21:
-            print("You won! Blackjack!")
-            game_is_running = False
-        else:
-            game_is_running = True
-        
+        game_is_running = check_for_blackjack(player_deck)
 
         print(f"Player deck: {player_deck}; current score: {sum(player_deck)}")
         print(f"Computer: {computer_deck}")
-
-
 
         # player round --------------------------
         if game_is_running:
